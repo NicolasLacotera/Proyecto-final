@@ -1,0 +1,31 @@
+@import "./componentes/enlaces";
+@import "./componentes/img";
+@import "./componentes/fuente";
+@import "./layout/flex";
+@import "./componentes/inputs";
+@import "./componentes/cards";
+@import "./layout/grid";
+@import "./view/mediaq";
+body {
+    background-image: url(../assets/fondochalita.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    min-height: 150;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 5;
+    border-bottom: solid 1px white;
+}
+
+select { 
+    width: 130px;
+}
